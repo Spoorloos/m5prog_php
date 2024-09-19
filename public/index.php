@@ -1,10 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Home</title>
     <? include '../components/head.php' ?>
 </head>
-
 <body>
     <? $active = 'Home'; include '../components/header.php' ?>
     <main>
