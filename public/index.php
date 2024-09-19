@@ -4,6 +4,7 @@
     <title>Home</title>
     <? include '../components/head.php' ?>
 </head>
+
 <body>
     <? $active = 'Home'; include '../components/header.php' ?>
     <main>
