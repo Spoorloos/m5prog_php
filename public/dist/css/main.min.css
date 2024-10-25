@@ -11848,6 +11848,54 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #CCC;
+}
+
+main {
+  padding: 2rem;
+}
+
+.card-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding-left: 0;
+  width: fit-content;
+}
+
+.card {
+  border-radius: 0;
+  background-color: transparent;
+  padding: 1rem;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.card__cover {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+.card__name {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+#create-playlist-dialog {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  padding: 1rem;
 }

@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*******************************/
 /***/ (() => {
 
-eval("console.log(\"Hello World!\");\n\n//# sourceURL=webpack://my-project-name/./public/src/js/main.js?");
+eval("\n\n//# sourceURL=webpack://my-project-name/./public/src/js/main.js?");
 
 /***/ })
 
